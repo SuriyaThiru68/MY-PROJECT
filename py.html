@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Courses</title>
+    <link rel="stylesheet" href="py_css.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Welcome to Python Courses</h1>
+    <p>Your gateway to mastering Python, from beginner to advanced levels.</p>
+</section>
+
+<section id="courses">
+    <h2>Available Python Courses</h2>
+    <label for="level-filter">Filter by Level:</label>
+    <select id="level-filter" onchange="filterCourses()">
+        <option value="all">All</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+    </select>
+    
+    <div id="course-container">
+        <div class="course-card" data-level="beginner">
+            <h3>Introduction to Python</h3>
+            <p class="level">Beginner</p>
+            <p class="price">Free</p>
+            <p>This course covers the basics of Python programming.</p>
+            <button onclick="enrollAndRedirect(this)">Enroll Now</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Python Courses. All Rights Reserved.</p>
+</footer>
+
+<script src="py_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.categories .btn {
+  margin: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.categories .btn:hover {
+  opacity: 0.8;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.course-type {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.free {
+  color: rgb(0, 160, 61);
+}
+
+.paid {
+  color: red;
+}
